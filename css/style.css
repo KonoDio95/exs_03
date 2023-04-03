@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: navajowhite;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.link_exs, .link_exs a{
+    text-decoration: none;
+    margin-block: 0.5em;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.link_exs:hover, .link_exs:hover a{
+    border-bottom: 4px solid;
+}
+.title-exs{
+    text-decoration: underline;
+    color: #c95300;
+}
+.imgs-cont {
+    max-width: 100%;
+    width: 640px;
+}
